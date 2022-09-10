@@ -1,4 +1,4 @@
-import {Given, When,Then} from 'cypress-cucumber-preprocessor';
+import {Given, When,Then} from '@badeball/cypress-cucumber-preprocessor';
 
 Given('I open Conduit login page',()=>{
     cy.visit('https://react-redux.realworld.io/#/login')
